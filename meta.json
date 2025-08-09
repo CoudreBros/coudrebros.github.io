@@ -1,8 +1,8 @@
 {
     "verification":"2abf184a67e03f4fd9",
     "info": {
-              "url_png_icon_64x64": "https://raw.githubusercontent.com/Couder82/coudrebros/main/CBROS_64_64.png",
-              "url_png_logo": "https://raw.githubusercontent.com/Couder82/coudrebros/main/CBROS_1000_1000.png",
+              "url_png_icon_64x64": "https://github.com/CoudreBros/coudrebros.github.io/CBROS_64_64.png",
+              "url_png_logo": "https://github.com/CoudreBros/coudrebros.github.io/CBROS_1000_1000.png",
               "location": "Prague, Czech Republic",
                 "social": {
                             "twitter_handle": "BrosCoudre",
@@ -23,7 +23,7 @@
                           },
                 "about": {
                             "me": "CBROS is a mission-driven Cardano pool based on powerful bare metal servers. It was founded in March 2021. 50% of pool rewards go to charitable donations, mainly to Médecins Sans Frontières - Doctors Without Borders. Every delegator is most welcome! We have NFT rewards for all delegators who delegate more than 10 ADA for more than 3 epochs.",
-                            "server": "BP node (Prague, Czech Rep., EU): 6 core CPU, 24 GB RAM, 1 TB SSD, 2TB HDD, 100 Mbit Ethernet, Ubuntu based OS, UPS Backup ----- Relay node 1 (Moravia, Czech Rep., EU): 6 core CPU, 32 GB RAM, 1 TB SSD, 2 TB HDD, 100 Mbit Ethernet, Ubuntu based OS, UPS Backup ----- Relay node 2 (Moravia, Czech Rep., EU): 6 core CPU, 32 GB RAM, 2 TB SDD, 100 Mbit Ethernet, Ubuntu based OS, UPS Backup.",
+                            "server": "BP node (Prague, Czech Rep., EU): 6 core CPU, 32 GB RAM, 3 TB SSD, 100 Mbit Ethernet, Linux, KVM, UPS Backup ----- Relay node 1 (Moravia, Czech Rep., EU): 6 core CPU, 32 GB RAM, 1 TB SSD, 100 Mbit Ethernet, Linux, KVM ----- Relay node 2 (Moravia, Czech Rep., EU): 6 core CPU, 32 GB RAM, 2 TB SDD, 100 Mbit Ethernet, Linux, KVM ----- Relay node 3 (Moravia, Czech Rep., EU): 6 core CPU, 64 GB RAM, 2 TB NVMe, 20 Mbit WiFi Broadband - IPv6, Linux",
                             "company": ""
                           },
           "my-pool-ids": {
