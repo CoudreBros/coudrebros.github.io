@@ -1,0 +1,97 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": "blake2b-256",
+  "body": {
+    "givenName": "CBROS Pool",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "https://raw.githubusercontent.com/Couder82/coudrebros/main/CBROS_1000_1000.png",
+      "sha256": "3f967743aa3658893f6e2685e9ba5f3bc9306aa5edf6ea384434887471e34342"
+    },
+    "motivations": "I am a single SPO and I want to be an active part of the Cardano community and its decision-making processes.",
+    "objectives": "I believe in democracy at all levels.\nI think the Cardano blockchain is one of the best.\nI want an independent Cardano.\nI am pleased to see Cardano's positive impact on the real world – that is why part of the CBROS pool earnings is always donated to charity, especially to Doctors Without Borders (MSF).",
+    "paymentAddress": "addr1qx8cynavc4czcst5tnh7gfm4h9cytkwlae9tma7zwhpnflr320s7llm7fn52m3dhsk87w2yv37dq2zmzw2ppdet3cl7qutz6ay",
+    "qualifications": "Stake Pool Operator of CBROS Pool.\nLinux enthusiast and open-source supporter.",
+    "references": [
+      {
+        "@type": "Link",
+        "label": "CBROS Website",
+        "uri": "https://www.coudrebros.eu"
+      },
+      {
+        "@type": "Link",
+        "label": "CBROS Github",
+        "uri": "https://github.com/CoudreBros"
+      },
+      {
+        "@type": "Identity",
+        "label": "CBROS Website",
+        "uri": "https://www.coudrebros.eu"
+      },
+      {
+        "@type": "Identity",
+        "label": "CBROS Github",
+        "uri": "https://github.com/CoudreBros"
+      }
+    ]
+  }
+}
